@@ -1,0 +1,164 @@
+/* html ve body etiketimizin yüksekliğini 100% yapıyor yani sayfayı tamamen kaplayacak şekle getiriyor */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  /* background-image: url(https://i1.wp.com/picnicontheshelf.com/wp-content/uploads/2018/09/pretty-book-bench-nature-water-outdoors-animated-gif.gif?ssl=1);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  display: flex;
+  /* Flex yönünü column yani alt alta getiriyor normalde flex yapısı kullandığınızda yan yana gelir */
+  flex-direction: column;
+}
+
+.icerik {
+  flex-grow: 1;
+}
+
+a:visited {
+  color: black;
+}
+a img,
+:link img,
+:visited img {
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.uyeol {
+  padding: 10px;
+  margin-top: 10px;
+}
+.buton {
+  display: flex;
+  position: absolute;
+  right: 25px;
+}
+.navbar a {
+  color: #e2e2e2;
+}
+.nav-item :hover {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.tablo {
+  font-weight: 500;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 30px;
+}
+.cr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+input {
+  border: 1 solid gray;
+  padding: 2px;
+  border-radius: 5px;
+}
+.icerik {
+  background-color: transparent;
+}
+.eleman {
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+/* .tab {
+  margin: auto;
+  display: block;
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  font-size: large;
+} */
+
+.cent {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.soluk {
+  color: grey;
+}
+
+.text-larger {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.text-medium {
+  font-size: medium;
+}
+
+.duyuru {
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  top: 200;
+  width: 20%;
+  height: 80%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.orta {
+  padding-left: 10%;
+  align-items: start;
+  text-align: start;
+  display: inline-block;
+  width: 70%;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.boldt {
+  font-size: 500;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
